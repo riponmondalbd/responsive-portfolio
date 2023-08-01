@@ -18,11 +18,19 @@
     background-color: #FD6E0A;
 }
 
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* Header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 226px;
+    margin: 0px 226px;
+    padding: 50px 0;
 }
 
 .nav-title {
@@ -64,6 +72,36 @@ nav li {
 
 .banner-description {
     color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+
+.about {
+    margin-top: 120px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
     font-size: 18px;
     margin-bottom: 30px;
 }
